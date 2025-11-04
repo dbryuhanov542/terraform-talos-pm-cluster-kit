@@ -110,13 +110,6 @@ module "talos_cluster" {
 
 Provide credentials through `.tfvars` (ignored by Git) or environment variables before running `terraform apply`. The example environment demonstrates the expected variables.
 
-## Publishing Checklist
-
-- [ ] Rotate any real credentials that were previously committed upstream.
-- [ ] Run `terraform fmt` from the repository root.
-- [ ] Run `terraform validate` inside `examples/homelab-example` (adjust providers as needed).
-- [ ] Enable GitHub Actions or pre-commit hooks if you want automated formatting/validation.
-
 ## Contributing
 
 Issues and pull requests are welcome once the repository is live. Please include:
