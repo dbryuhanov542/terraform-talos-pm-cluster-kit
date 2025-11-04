@@ -1,0 +1,22 @@
+# Terraform state & cache
+.terraform/
+.terraform.*
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfplan.*
+crash.log
+crash.*.log
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+*-secrets.tfvars
+
+# Editor junk
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*~

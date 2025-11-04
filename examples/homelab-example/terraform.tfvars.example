@@ -1,0 +1,11 @@
+# Proxmox API credentials
+pm_api_url           = "https://pve.example.com:8006/api2/json"
+pm_api_token_id      = "terraform@pve!token"
+pm_api_token_secret  = "REPLACE_ME"
+pm_tls_insecure      = true
+
+# Optional overrides:
+# cluster_name      = "homelab-example"
+# cluster_endpoint  = null
+# talos_version     = "v1.10.4"
+# bootstrap_enabled = true
